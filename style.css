@@ -14,13 +14,14 @@
      }
      button{
           margin: auto;
-          width: 50%;
+          width: 80%;
      }
 }
 .btn button{
      padding: 10px 0px 10px 0px;
      border-radius: 5px;
      font-size: 16px;
+     cursor: pointer;
 }
 .btn button:hover{
      background:#131D4F;
