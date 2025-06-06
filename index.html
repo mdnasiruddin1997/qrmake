@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> QR Code </title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="container">
+          <input id="qr" placeholder="Enter Your Text">
+          <img alt="" id="qrimg">
+          <div class="btn">
+          <button onclick="qrimg.src='https://api.qrserver.com/v1/create-qr-code/?size=150x150&data='+qr.value"> 
+          Make 
+          </button>
+          </div>
+     </div>   
+</body>
+</html>
